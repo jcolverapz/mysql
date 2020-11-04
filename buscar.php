@@ -1,11 +1,11 @@
 <?php 
 include 'conexion.php';
 
-$codigo  = $_GET['codigo'];
+$codigo  = $_GET['concepto'];
 //$concepto  = $_GET['concepto'];
 //$codigo  = "135"
 //$json = array();
-$consulta = "select * from Tabla2 where codigo =  '$codigo'";
+$consulta = "select * from conceptos where conceptos =  '$codigo'";
 //$consulta = "select * from conceptos where concepto =  '$concepto'";
 //$consulta = "select * from conceptos where ID = 76";
 
