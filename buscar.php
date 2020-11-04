@@ -1,12 +1,12 @@
 <?php 
 include 'conexion.php';
 
-$codigo  = $_GET['concepto'];
-//$concepto  = $_GET['concepto'];
+//$codigo  = $_GET['concepto'];
+$concepto  = $_GET['concepto'];
 //$codigo  = "135"
 //$json = array();
-$consulta = "select * from conceptos where conceptos =  '$codigo'";
-//$consulta = "select * from conceptos where concepto =  '$concepto'";
+//$consulta = "select * from conceptos where conceptos =  '$codigo'";
+$consulta = "select * from conceptos where concepto =  '$concepto'";
 //$consulta = "select * from conceptos where ID = 76";
 
 //& " FROM conceptos INNER JOIN definiciones ON conceptos.ID = definiciones.conceptoID" _
