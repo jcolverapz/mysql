@@ -6,7 +6,8 @@ $Concepto  = $_GET['Concepto'];
 //$codigo  = "135"
 //$json = array();
 //$consulta = "select * from conceptos where conceptos =  '$codigo'";
-$consulta = "select * from conceptos inner join definiciones ON conceptos.ID=definiciones.ConceptoID where Concepto =  '$Concepto'";
+$consulta = "select * from conceptos where Concepto =  '$Concepto'";
+//$consulta = "select * from conceptos inner join definiciones ON conceptos.ID=definiciones.ConceptoID where Concepto =  '$Concepto'";
 //$consulta = "select * from conceptos where ID = 76";
 
 //& " FROM conceptos INNER JOIN definiciones ON conceptos.ID = definiciones.conceptoID" _
